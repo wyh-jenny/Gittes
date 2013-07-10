@@ -1,4 +1,4 @@
-package Test22;
+ï»¿package Test22;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -20,7 +20,7 @@ public class Test2 extends JFrame {
 	}
 
 	private void initUI(){
-		this.setTitle("·®ÁĞÁúĞ¡×é");
+		this.setTitle("**æ¨Šåˆ—é¾™å°ç»„**");
 		this.setSize(800,600);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -31,8 +31,8 @@ public class Test2 extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				JFrame t1 =new JFrame("ÍõµtİÕ²âÊÔ");
-				JTextArea text=new JTextArea("Çë»Ø´ğÏÂÃæµÄÎÊÌâ£ºÃæÏò¶ÔÏóµÄÈı¸ö»ù±¾Ë¼ÏëÊÇÊ²Ã´£¿");
+				JFrame t1 =new JFrame(" ç‹ç¥è¡æµ‹è¯• ");
+				JTextArea text=new JTextArea(" è¯·å›ç­”ä¸‹é¢çš„é—®é¢˜ï¼šé¢å‘å¯¹è±¡çš„ä¸‰ä¸ªåŸºæœ¬æ€æƒ³æ˜¯ä»€ä¹ˆï¼Ÿ ");
 				text.setSize(400, 300);
 				text.setLineWrap(true);
 				t1.add(text);
